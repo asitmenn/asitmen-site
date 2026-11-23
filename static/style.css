@@ -475,3 +475,6 @@ p { margin: 0; }
 @media (min-width: 900px) { .nav-quick { display: none; } }
 @media (min-width: 900px) and (max-width: 1099px) { .nav-links { gap: 20px; } }
 .tag { text-transform: none; letter-spacing: 0.02em; }
+.lp-section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.lp-section-head h2 { margin-bottom: 0; }
+.tag-head { margin-top: 0; flex-shrink: 0; font-size: 13px; padding: 4px 11px; color: var(--ink-2); }
