@@ -424,7 +424,6 @@ p { margin: 0; }
 .programs { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
 @media (min-width: 960px) { .programs { grid-template-columns: repeat(5, 1fr); } }
 .program { background: var(--surface); border-radius: var(--radius); padding: 24px 22px 26px; display: grid; gap: 10px; align-content: start; }
-.program:first-child { background: var(--accent); }
 .program h3 { font-size: 20px; }
 .program p { color: var(--ink-2); font-size: 15px; }
 
