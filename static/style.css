@@ -487,3 +487,16 @@ p { margin: 0; }
 .lp-contact-row a.lp-mail-send { margin-left: auto; display: inline-flex; align-items: center; height: 36px; padding: 0 16px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 14px; font-weight: 600; letter-spacing: 0; text-decoration: none; transition: transform 0.2s; }
 .lp-contact-row a.lp-mail-send:hover { transform: translateY(-1px); }
 @media (max-width: 420px) { .lp-mail-copy { font-size: 16px; } .lp-contact-row a.lp-mail-send { padding: 0 12px; font-size: 13px; height: 34px; } }
+
+/* ---------- Asitorenk sayfası + ana sayfada 3 kart ---------- */
+.page-hero-media.asitorenk-media { background: #3a2178; display: grid; place-items: center; padding: 8%; }
+.page-hero-media.asitorenk-media img { object-fit: contain; filter: drop-shadow(0 24px 28px rgba(10, 2, 40, 0.45)); }
+.feature-media.asitorenk-video { background: #fff; }
+.feature-media.asitorenk-video video { object-fit: contain; }
+@media (min-width: 900px) {
+  .more { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .more-card { grid-template-columns: 1fr; align-items: start; }
+  .more-card .more-media { aspect-ratio: 4 / 3; }
+  .more-text { padding: 4px 8px 10px; }
+}
+.more-media video.contain { object-fit: contain; background: #fff; }
