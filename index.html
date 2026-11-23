@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/static/style.css?v=1795410650">
+<link rel="stylesheet" href="/static/style.css?v=1795434664">
 <script>document.documentElement.classList.add('js')</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Yasin Aydın", "alternateName": "Asitmen", "url": "https://www.asitmen.com/", "image": "https://www.asitmen.com/static/img/og.jpg", "email": "mailto:contact@asitmen.com", "jobTitle": "Bilim içerik üreticisi", "address": {"@type": "PostalAddress", "addressLocality": "Uşak", "addressCountry": "TR"}, "sameAs": ["https://www.youtube.com/@asitmen", "https://www.instagram.com/asitmen", "https://www.tiktok.com/@asitmen", "https://www.linkedin.com/in/asitmen", "https://x.com/asitmen", "https://www.facebook.com/asitmenfb"]}</script>
 
@@ -36,7 +36,7 @@
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="/" aria-label="Asitmen"><img src="/static/img/logo/imza.png" alt="@asitmen" width="857" height="505"></a>
-    <nav class="nav-links" aria-label="Menu"><a href="#isler">İşler</a><a href="#rakamlar">Rakamlar</a><a href="#hizmetler">Hizmetler</a><a href="#hakkimda">Hakkımda</a></nav>
+    <nav class="nav-links" aria-label="Menu"><a href="#isler">İşler</a><a href="#hizmetler">Hizmetler</a><a href="/bilim-gosterisi/">Bilim gösterisi</a><a href="/asitlabs/">AsitLabs</a><a href="#hakkimda">Hakkımda</a></nav>
     <div class="nav-right">
       <div class="lang" role="group" aria-label="Dil / Language">
         <a href="/" hreflang="tr" lang="tr" aria-current="true">TR</a>
@@ -97,13 +97,13 @@
       <div class="work-grid">
       <article class="work-card reveal">
         <div class="media">
-          <video data-autoplay muted loop playsinline preload="none" poster="/static/video/teknoloji.jpg" aria-label="Teknoloji markaları — tanıtım videosu">
+          <video data-autoplay muted loop playsinline preload="none" poster="/static/video/teknoloji.jpg" aria-label="Teknoloji ve ev markaları — tanıtım videosu">
             <source src="/static/video/teknoloji.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="work-meta"><h3>Teknoloji markaları</h3><span class="kicker">Telefon · Robot süpürge · Donanım</span></div>
+        <div class="work-meta"><h3>Teknoloji ve ev markaları</h3><span class="kicker">Telefon · Bilgisayar · Ev · Elektrikli araç</span></div>
         <p>Dayanıklılık testleriyle ürünün iddiası kamera önünde kanıtlanır.</p>
-        <ul class="brands"><li>Tecno</li><li>Honor</li><li>Oppo</li><li>Roborock</li><li>TCL</li><li>GamePower</li><li>İnce Hesap</li></ul>
+        <ul class="brands"><li>Tecno</li><li>Honor</li><li>Oppo</li><li>Monster</li><li>Teclast</li><li>Roborock</li><li>TCL</li><li>Gree</li><li>Xenon</li><li>Piaron</li><li>YADEA</li><li>T-Bike</li><li>EXVEGA</li><li>Doğrucan Mobilya</li><li>GamePower</li><li>İnce Hesap</li></ul>
       </article>
       <article class="work-card reveal">
         <div class="media">
@@ -111,9 +111,9 @@
             <source src="/static/video/kimya.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="work-meta"><h3>Kimya markaları</h3><span class="kicker">Temizlik · Parfüm · Bakım</span></div>
+        <div class="work-meta"><h3>Kimya markaları</h3><span class="kicker">Temizlik · Parfüm · Bakım · Kuru buz</span></div>
         <p>Kimyayı en iyi bilen kanaldan, ürünün farkını gösteren deneyler.</p>
-        <ul class="brands"><li>WD-40</li><li>Koroplast</li><li>John Lucas</li></ul>
+        <ul class="brands"><li>WD-40</li><li>Koroplast</li><li>John Lucas</li><li>Master Kuru Buz</li></ul>
       </article>
       <article class="work-card reveal">
         <div class="media">
@@ -121,9 +121,9 @@
             <source src="/static/video/gida.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="work-meta"><h3>Gıda markaları</h3><span class="kicker">Takviye · Doğal ürün</span></div>
+        <div class="work-meta"><h3>Gıda markaları</h3><span class="kicker">Atıştırmalık · Hazır gıda · Takviye</span></div>
         <p>İçeriği laboratuvarda incelenen, faydası sade bir dille anlatılan ürünler.</p>
-        <ul class="brands"><li>Asido</li><li>Animal Joy</li><li>Iventis</li><li>Peynere</li></ul>
+        <ul class="brands"><li>Ülker</li><li>SuperFresh</li><li>Asido</li><li>Animal Joy</li><li>Liventis</li><li>Peynere</li></ul>
       </article>
       <article class="work-card reveal">
         <div class="media">
@@ -147,9 +147,6 @@
           <span class="eyebrow">Öne çıkan proje</span>
           <h2>TRT Genç'te <em>Asitmen Çözer</em></h2>
           <p class="lead">TRT Genç&#x27;in bilim programı “Asitmen Çözer”in sunucusuyum. TRT ve Yeşilay gibi kamu kuruluşlarıyla çalışmak, kanalın güvenilirliğinin en net kanıtı.</p>
-          <div class="feature-actions">
-            <a class="btn btn-ink" href="https://youtube.com/playlist?list=PLnz8KFE1Mtl3-67KhsrKc4igXFYAzKBvd" target="_blank" rel="noopener">Bölümleri izle <span class="arrow" aria-hidden="true">↗</span></a>
-          </div>
         </div>
         <div class="feature-media">
           <video data-autoplay muted loop playsinline preload="none" poster="/static/video/trt.jpg" aria-label="TRT Genç Asitmen Çözer — tanıtım videosu">
@@ -177,7 +174,17 @@
         <span class="eyebrow">Hizmetler</span>
         <h2>Birlikte neler <em>yapabiliriz?</em></h2>
       </div>
-      <div class="services"><article class="service reveal"><figure><img src="/static/img/duman.webp" alt="Deney sırasında yükselen beyaz duman" loading="lazy"></figure><h3>Shorts ve Reels entegrasyonu</h3><p>Ürününüz, kanalın en çok izlenen formatında bir deneyin parçası olur. YouTube, Instagram ve TikTok&#x27;ta aynı anda.</p></article><article class="service reveal"><figure><img src="/static/img/turuncu.webp" alt="Turuncu koruyucu kıyafetle eski bir fabrikada" loading="lazy"></figure><h3>Özel konsept video</h3><p>Markanız için baştan kurgulanan deney ya da test videosu.</p></article><article class="service reveal"><figure><img src="/static/img/uzun-video.webp" alt="1 Kuruş uzun video kapağı" loading="lazy"></figure><h3>YouTube uzun video</h3><p>Challenge ve seri formatında, ürünün hikâyesine zaman tanıyan yatay bölümler.</p></article><article class="service reveal"><figure><img src="/static/img/bilim-show.webp" alt="Çocuklara sahnede bilim şovu" loading="lazy"></figure><h3>Etkinlik ve sahne</h3><p>Bilim şovları, festival sahneleri ve program sunuculuğu.</p><a class="service-link" href="https://www.asitlabs.com/pages/bilim-gosterisi">Okullar için bilim gösterisi →</a></article></div>
+      <div class="services"><article class="service reveal"><figure><img src="/static/img/duman.webp" alt="Deney sırasında yükselen beyaz duman" loading="lazy"></figure><h3>Shorts ve Reels entegrasyonu</h3><p>Ürününüz, kanalın en çok izlenen formatında bir deneyin parçası olur. YouTube, Instagram ve TikTok&#x27;ta aynı anda.</p></article><article class="service reveal"><figure><img src="/static/img/turuncu.webp" alt="Turuncu koruyucu kıyafetle eski bir fabrikada" loading="lazy"></figure><h3>Özel konsept video</h3><p>Markanız için baştan kurgulanan deney ya da test videosu.</p></article><article class="service reveal"><figure><img src="/static/img/uzun-video.webp" alt="1 Kuruş uzun video kapağı" loading="lazy"></figure><h3>YouTube uzun video</h3><p>Challenge ve seri formatında, ürünün hikâyesine zaman tanıyan yatay bölümler.</p></article><article class="service reveal"><figure><img src="/static/img/bilim-show.webp" alt="Çocuklara sahnede bilim şovu" loading="lazy"></figure><h3>Etkinlik ve sahne</h3><p>Bilim şovları, festival sahneleri ve program sunuculuğu.</p><a class="service-link" href="/bilim-gosterisi/">Okullar için bilim gösterisi →</a></article></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Ekranın dışında</span>
+        <h2>Bilimi <em>sahneye</em> ve eve taşıyorum.</h2>
+      </div>
+      <div class="more"><a class="more-card reveal" href="/bilim-gosterisi/"><div class="more-media"><video data-autoplay muted loop playsinline preload="none" poster="/static/img/sahne-renkler-poster.jpg" aria-hidden="true"><source src="/static/labs/renkler.mp4" type="video/mp4"></video></div><div class="more-text"><h3>Bilim gösterisi</h3><p>Okullar, belediyeler ve bilim şenlikleri için canlı deney şovu. Öğrenciler sahneye çıkıp deneylerin parçası oluyor.</p><span class="service-link">Gösteriyi incele →</span></div></a><a class="more-card reveal" href="/asitlabs/"><div class="more-media"><img src="/static/labs/kopuren-kimya.jpg" alt="" loading="lazy" width="1200" height="1200"></div><div class="more-text"><h3>AsitLabs</h3><p>Bilim markam AsitLabs: evde yapılan deney setleri ve seviye seviye deney defterleri.</p><span class="service-link">AsitLabs&#x27;ı tanı →</span></div></a></div>
     </div>
   </section>
 
@@ -193,7 +200,7 @@
 
   <section class="section" id="hakkimda" style="padding-top:0">
     <div class="wrap about">
-      <figure class="reveal"><img src="/static/img/portre.webp" alt="Yasin Aydın stüdyo portresi" loading="lazy" width="864" height="1080"></figure>
+      <figure class="reveal"><img src="/static/img/sari-tulum.webp" alt="Yasin Aydın laboratuvarda sarı koruyucu tulumla" loading="lazy" width="864" height="1080"></figure>
       <div class="about-text reveal">
         <span class="eyebrow">Hakkımda</span>
         <h2>Merhaba, ben <em>Yasin.</em></h2>
@@ -242,6 +249,6 @@
     </div>
   </footer>
 </div>
-<script src="/static/main.js?v=1795410650" defer></script>
+<script src="/static/main.js?v=1795434664" defer></script>
 </body>
 </html>
